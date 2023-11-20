@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/TwilioIvr.Api/bin/Debug/net5.0
+/TwilioIvr.Api/obj
+/TwilioIvr.Application/bin/Debug/net5.0
+/TwilioIvr.Application/obj
+/TwilioIvr.Persistence/bin/Debug/net5.0
+/TwilioIvr.Persistence/obj
+/.vs/TwilioIvr
