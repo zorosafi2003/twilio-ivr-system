@@ -13,7 +13,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using TwilioIvr.Application.Features.MainFeatures;
+using TwilioIvr.Application.Features.ForwardCallFeatures;
 using TwilioIvr.Persistence.Abstruct;
 using TwilioIvr.Persistence.Concrete;
 
@@ -37,7 +37,7 @@ namespace TwilioIvr.Api
             services.AddSingleton<ITwilioProvider, TwilioProvider>();
             services.AddSingleton<ITwillioUrlProvider, TwillioUrlProvider>();
 
-            services.AddMediatR(typeof(ForwardCallCommand).GetTypeInfo().Assembly);
+            services.AddMediatR(typeof(ForwardCallToMenu_DetectMenuCommand).GetTypeInfo().Assembly);
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

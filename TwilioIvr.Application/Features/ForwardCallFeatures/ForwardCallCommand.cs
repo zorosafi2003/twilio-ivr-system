@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using TwilioIvr.Application.IvrFeatures.ForwardCallFeatures.Enums;
 using TwilioIvr.Persistence.Abstruct;
 
-namespace TwilioIvr.Application.Features.MainFeatures
+namespace TwilioIvr.Application.Features.ForwardCallFeatures
 {
     public class ForwardCallCommand : IRequest<Unit>
     {
